@@ -1,0 +1,25 @@
+body{
+    background-color: #222;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    padding: 8px;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 3px;
+}
+
+a:hover{
+    background-color: lightskyblue;
+    transition: ease-in-out 0.5s;
+}
+
+.kirim{
+    border-style: none;
+}
